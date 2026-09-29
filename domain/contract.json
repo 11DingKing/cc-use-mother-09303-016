@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "国际奖学金配置",
+  "source_context": "https://world.people.com.cn/n1/2026/0924/c1002-40804903.html",
+  "actors": [
+    "资助方",
+    "奖学金委员会",
+    "申请学生"
+  ],
+  "states": [
+    "申请",
+    "评审",
+    "试算",
+    "授予",
+    "调整"
+  ],
+  "invariants": [
+    "多资金池",
+    "回避关系",
+    "额度锁定",
+    "复算审计"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09303-016-A",
+      "actor": "资助方",
+      "state": "申请"
+    },
+    {
+      "case_id": "09303-016-B",
+      "actor": "申请学生",
+      "state": "评审"
+    }
+  ],
+  "tags": [
+    "scholarship-allocation",
+    "fund-ledger"
+  ]
+}
